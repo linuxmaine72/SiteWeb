@@ -321,7 +321,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td><img src="inc/images/rien.gif" height="10" width="1"></td>
+                  <td></td>
                 </tr>
                 <tr>
                   <td align="center">
@@ -330,14 +330,14 @@
                         <tr>
                         </tr>
                         <tr>
-                          <td colspan="3" class="menudroit-bordure" height="1"><img src="inc/images/rien.gif" height="1" width="1"></td>
+                          
                         </tr>
                       </tbody>
                     </table>
                   </td>
                 </tr>
                 <tr>
-                  <td><img src="inc/images/rien.gif" height="10" width="1"></td>
+                  
                 </tr>
               </tbody>
             </table><br>
