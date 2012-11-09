@@ -1,6 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="fr"><head>
-
   
     <meta name="keywords" content="association, formation, management,
       gestion de projet, formation continue, institut, superieure, mans,      recherche, spadd, ecole, ingenieur, conception" lang="fr">
@@ -84,8 +83,7 @@
                                     <table border="0" cellpadding="0" cellspacing="5">
                                       <tbody>
                                         <tr>
-                                          <td class="menugauche"><?php include './inc/affiche_ev.php'; ?><br>
-</td>
+                                          <td class="menugauche"><?php include './inc/affiche_ev.php'; ?></td>
                                         </tr>
                                       </tbody>
                                     </table>
@@ -340,8 +338,11 @@
                   <td><img src="inc/images/rien.gif" height="10" width="1"></td>
                 </tr>
               </tbody>
-            </table><br>
-</td>
+            </table>
+            <form name="menu" method="post"> <input name="page" value="" type="hidden">
+              <input name="proj_cle" value="" type="hidden"> <input name="choix_projet" type="hidden"> <input name="cat" value="" type="hidden"> <input name="news_cle" value="" type="hidden"> <input name="article_cle" value="" type="hidden"> <input name="lien_cle" value="" type="hidden">
+            </form>
+          </td>
         </tr>
         <tr>
           <td colspan="4" class="normal" align="center">©2012 LinuX Maine - Tous
