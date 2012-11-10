@@ -1,17 +1,19 @@
+
 <?php
-setlocale(LC_TIME, "fr_FR");
-$strSTART="";
+// code par Nordine
+setlocale(LC_TIME, "fr_FR"); // string date en francais
+$strSTART="";   // initialisation des variables
 $strEND="";
 $strResume="";
 $strURL="";
 
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, "http://www.agendadulibre.org/ical.php?tag=linuxmaine");
+    curl_setopt($ch, CURLOPT_URL, "http://www.agendadulibre.org/ical.php?tag=linuxmaine"); // recup fichier ical dans variable
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     $output = curl_exec($ch);
-    $pieces = explode("\n", $output);
+    $pieces = explode("\n", $output); // chaque lignes
     
-    foreach ($pieces as $lineContent) {
+    foreach ($pieces as $lineContent) { 
 $pars=explode(":",$lineContent);
 
 if (strpos($lineContent, "DTSTART")===0) {$strSTART=$pars[1]; }
