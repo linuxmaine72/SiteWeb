@@ -72,7 +72,7 @@
                                     <table border="0" cellpadding="0" cellspacing="5">
                                       <tbody>
                                         <tr>
-                                          <td class="menugauche-bordure">prochain évenement </td>
+                                          <td class="menugauche-bordure">prochains &eacute;venements </td>
                                         </tr>
                                       </tbody>
                                     </table>
