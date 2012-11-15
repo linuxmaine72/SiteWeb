@@ -12,6 +12,7 @@ $strURL="";
     curl_setopt($ch, CURLOPT_URL, "http://www.agendadulibre.org/ical.php?tag=linuxmaine"); // recup fichier ical dans variable
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     $output = curl_exec($ch);
+    curl_close($ch); //Fermeture du gestionnaire cURL juste après exécution
     $pieces = explode("\n", $output); // chaque lignes dans une case du tableau $pieces
     $i=1;
     foreach ($pieces as $lineContent1)
@@ -51,5 +52,4 @@ $strURL="";
     echo " de ".$strSTART2Heure."h".$strSTART2Min." à ".$strEND2Heure."h".$strEND2Min."</BR>";
     echo "</a>";
 
-    curl_close($ch);
 ?>
