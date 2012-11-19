@@ -79,7 +79,7 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td class="bandeau"><img src="inc/images/rien.gif" height="1" width="1"></td>
+                                  <td class="bandeau"></td>
                                   <td class="menugauche" rowspan="2" width="180">
                                     <table border="0" cellpadding="0" cellspacing="5">
                                       <tbody>
@@ -91,14 +91,14 @@
                                     </table>
                                   </td>
                                   <td width="14"><img src="inc/images/rien.gif" height="1" width="14"></td>
-                                  <td class="bandeau"><img src="inc/images/rien.gif" height="1" width="1"></td>
+                                  <td class="bandeau"><img src="inc/images/rien.gif" height="1" width="1"></td><!-- bordure droit -->
                                 </tr>
                                 <tr>
-                                  <td class="menugauche-bordure"><img src="inc/images/rien.gif" height="1" width="1"></td>
+                                  <td class="menugauche-bordure"><img src="inc/images/rien.gif" height="1" width="1"></td><!-- bordure gauche -->
                                   <td rowspan="2" colspan="2" align="right" background="./inc/images/filet_bleu.gif" valign="bottom"><img src="inc/images/arrondi_menugauche.gif"></td>
                                 </tr>
                                 <tr>
-                                  <td colspan="2" class="menugauche-bordure" height="1"><img src="inc/images/rien.gif" height="1" width="1"></td>
+                                  <td colspan="2" class="menugauche-bordure" height="1"></td>
                                 </tr>
                               </tbody>
                             </table>
@@ -124,26 +124,26 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td class="bandeau"><img src="inc/images/rien.gif" height="1" width="1"></td>
+                                  <td class="bandeau"></td>
                                   <td class="menugauche" rowspan="2" width="180">
                                     <table border="0" cellpadding="0" cellspacing="5">
                                       <tbody>
                                         <tr>
-                                          <td class="menugauche">En direct du
-                                            wiki</td>
+                                          <td class="menugauche"><a href="http://wiki.linuxmaine.org" title="WIKI" target="_self"> En direct du
+                                            wiki</a></td>
                                         </tr>
                                       </tbody>
                                     </table>
                                   </td>
                                   <td width="14"><img src="inc/images/rien.gif" height="1" width="14"></td>
-                                  <td class="bandeau"><img src="inc/images/rien.gif" height="1" width="1"></td>
+                                  <td class="bandeau"><img src="inc/images/rien.gif" height="1" width="1"></td><!-- bordure droit-->
                                 </tr>
                                 <tr>
-                                  <td class="menugauche-bordure"><img src="inc/images/rien.gif" height="1" width="1"></td>
+                                  <td class="menugauche-bordure"><img src="inc/images/rien.gif" height="1" width="1"></td><!-- bordure gauche -->
                                   <td rowspan="2" colspan="2" align="right" background="http://www.linuxmaine.fr/inc/images/filet_bleu.gif" valign="bottom"><img src="inc/images/arrondi_menugauche.gif"></td>
                                 </tr>
                                 <tr>
-                                  <td colspan="2" class="menugauche-bordure" height="1"><img src="inc/images/rien.gif" height="1" width="1"></td>
+                                  <td colspan="2" class="menugauche-bordure" height="1"><img src="inc/images/rien.gif" height="1" width="1"></td><!-- bordure droit-->
                                 </tr>
                               </tbody>
                             </table>
@@ -179,25 +179,7 @@
                           <td colspan="2"><img src="inc/images/rien.gif" height="15" width="1"></td>
                         </tr>
                         <tr>
-                          <td colspan="2" class="normal" align="left">l'association
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                            est actuellement localisée à l'adresse suivante :<br>
+                          <td colspan="2" class="normal" align="left">l'association est actuellement localisée à l'adresse suivante :<br>
                             <br>
                             <b>Pôle associatif Coluche<br>
                               2ème étage – local 220<br>
@@ -253,8 +235,8 @@
                     <table border="0" cellpadding="0" cellspacing="0">
                       <tbody>
                         <tr>
-                          <td checked="true" class="menudroit-bordure"><img src="inc/images/rien.gif" height="1" width="1"></td>
-                          <td class="menudroit-bordure"><img src="inc/images/rien.gif" height="1" width="1"></td>
+                          <td checked="true" class="menudroit-bordure"></td>
+                          <td class="menudroit-bordure"></td>
                         </tr>
                       </tbody>
                     </table>
@@ -270,10 +252,10 @@
                     <table border="0" cellpadding="0" cellspacing="0">
                       <tbody>
                         <tr>
-                          <td class="menudroit-bordure"><img src="inc/images/rien.gif" height="1" width="1"></td>
+                          <td class="menudroit-bordure"></td>
                         </tr>
                         <tr>
-                          <td colspan="3" class="menudroit-bordure" height="1"><img src="inc/images/rien.gif" height="1" width="1"></td>
+                          <td colspan="3" class="menudroit-bordure" height="1"></td>
                         </tr>
                       </tbody>
                     </table>
@@ -291,30 +273,32 @@
                             <table border="0" cellpadding="0" cellspacing="5">
                               <tbody>
                                 <tr>
-                                  <td class="menudroit-bordure">Dernières news</td>
+                                  <td class="menudroit-bordure">TWITTER</td>
                                 </tr>
                               </tbody>
                             </table>
                           </td>
                         </tr>
                         <tr>
-                          <td class="menudroit-bordure"><img src="inc/images/rien.gif" height="1" width="1"></td>
+                          <td class="menudroit-bordure"><img src="inc/images/rien.gif" height="1" width="1"></td><!-- bordure gauche -->
                           <td class="menudroit" width="160">
                             <table border="0" cellpadding="0" cellspacing="5">
                               <tbody>
                                 <tr>
                                   <td class="menudroit"> <br>
-                                    Changements sur le site web<br>
+                                    <a class="twitter-timeline"  href="https://twitter.com/Linuxmaine72" data-widget-id="270161500595961857">Tweets de @Linuxmaine72</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                                    <br>
                                     <br>
                                   </td>
                                 </tr>
                               </tbody>
                             </table>
                           </td>
-                          <td class="menudroit-bordure"><img src="inc/images/rien.gif" height="1" width="1"></td>
+                          <td class="menudroit-bordure"><img src="inc/images/rien.gif" height="1" width="1"></td><!-- bordure droit -->
                         </tr>
                         <tr>
-                          <td colspan="3" class="menudroit-bordure" height="1"><img src="inc/images/rien.gif" height="1" width="1"></td>
+                          <td colspan="3" class="menudroit-bordure" height="1"></td>
                         </tr>
                       </tbody>
                     </table>
@@ -330,7 +314,7 @@
                         <tr>
                         </tr>
                         <tr>
-                          <td colspan="3" class="menudroit-bordure" height="1"><img src="inc/images/rien.gif" height="1" width="1"></td>
+                          <td colspan="3" class="menudroit-bordure" height="1"></td>
                         </tr>
                       </tbody>
                     </table>
@@ -346,7 +330,7 @@
         <tr>
           <td colspan="4" class="normal" align="center">©2012 LinuX Maine - Tous
             droits réservés</td>
-          <td class="bandeau"><img src="inc/images/rien.gif" height="1" width="1"></td>
+          <td class="bandeau"></td>
         </tr>
       </tbody>
     </table>
