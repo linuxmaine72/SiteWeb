@@ -1,0 +1,251 @@
+<!--
+/**
+ * Fichier :			global.css
+ * Description :		Définition des styles d'affichages généaux au site
+ * 
+ * Mises à jour :
+ *
+ * Auteur				Version 		Date				Modification effectuée
+ * Ludovic FRIN			1.0				07/04/2004			Création du fichier
+ */
+//-->
+
+BODY
+{
+	color				: #FFFFFF;
+}
+
+.normal
+{
+	color				: #000000;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+}
+
+.normal1
+{
+	color				: #000000;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+	font-style			: italic;
+}
+
+.gras
+{
+	color				: #000000;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+	font-weight			: bold;
+}
+
+.titre1
+{
+	color				: #000000;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 10pt;
+	font-weight			: bold;
+}
+
+.titre2
+{
+	color				: #000000;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 10pt;
+	font-weight			: bold;
+}
+
+.alerte
+{
+	color				: #FF0000;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+	font-weight			: plain;
+}
+
+.alerte1
+{
+	color				: #FF0000;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+	font-weight			: plain;
+	font-style			: italic;
+
+}
+
+.bandeau
+{
+	background-color	: #436C85;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+	font-weight			: bold; 
+	color				: #FFFFFF;
+}
+
+.menugauche
+{
+	background-color	: #FFFFFF;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+	font-weight			: plain; 
+	color				: #436C85;
+}
+.menugauche-bordure
+{
+	background-color	: #436C85;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+	font-weight			: bold; 
+	color				: #FFFFFF;
+}
+
+.menudroit
+{
+	background-color	: #436C85;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+	font-weight			: plain; 
+	color				: #FFFFFF;
+	text-decoration		: none;
+}
+
+.menudroit-bordure
+{
+	background-color	: #F9B70F;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+	font-weight			: bold; 	
+	color				: #436C85;
+}
+
+.menuhaut
+{
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+	font-weight			: plain; 
+	color				: #436C85;
+}
+
+.champ
+{
+	background-color	: #FFFFFF;
+	border-bottom		: #436C85 1px solid;
+	border-left			: #436C85 1px solid;
+	border-right		: #436C85 1px solid;
+	border-top			: #436C85 1px solid;
+	color				: #436C85;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+}
+
+.bouton
+{
+	background-color	: #FFFFFF;
+	border-bottom		: #436C85 1px solid;
+	border-left			: #436C85 1px solid;
+	border-right		: #436C85 1px solid;
+	border-top			: #436C85 1px solid;
+	color				: #436C85;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 10pt;
+}
+
+.filet
+{
+	background-color	: #F9B70F;
+}
+
+.tab-titre0
+{
+	background-color	: #436C85;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+	font-weight			: bold; 
+	color				: #FFFFFF;
+	text-decoration		: none;
+}
+
+.tab-titre1
+{
+	background-color	: #F9B70F;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+	font-weight			: bold; 
+	color				: #FFFFFF;
+	text-decoration		: none;
+}
+
+.tab-normal0
+{
+	background-color	: #FFFFFF;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+	font-weight			: plain; 
+	color				: #000000;
+	text-decoration		: none;
+}
+.tab-normal1
+{
+	background-color	: #EEEEEE;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+	font-weight			: plain; 
+	color				: #000000;
+	text-decoration		: none;
+}
+
+.tab-over
+{
+	background-color	: #A1BFD1;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+	font-weight			: plain; 
+	color				: #000000;
+	text-decoration		: none;
+	cursor				: hand;
+}
+
+.tab-select
+{
+	background-color	: #F9B70F;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+	font-weight			: bold; 
+	color				: #000000;
+	text-decoration		: none;
+	cursor				: hand;
+}
+
+.tab-bordure
+{
+	background-color	: #000000;
+}
+
+.recherche
+{
+	background-color	: #FFFF00;
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	font-size			: 8pt;
+	font-weight			: bold; 
+	color				: #000000;
+}
+
+.affich_news_top
+{
+	background-color	: #436C85;
+	border-bottom		: #F9B70F 2px solid;
+	border-left			: #F9B70F 2px solid;
+	border-right		: #F9B70F 2px solid;
+	border-top			: #F9B70F 2px solid;
+	font-size			: 10pt;
+	color 				: #FFFFFF;
+}
+
+.affich_news_bottom
+{
+	background-color	: #FFFFFF;
+	border-bottom		: #436C85 1px solid;
+	border-left			: #436C85 1px solid;
+	border-right		: #436C85 1px solid;
+	border-top			: #436C85 1px solid;
+	font-size			: 8pt;
+}
