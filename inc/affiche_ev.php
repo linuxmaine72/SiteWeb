@@ -1,6 +1,6 @@
 <?php
 // codé par Nordine
-// 11/11/2012 : modifié par Bertrand
+// modifié par Bertrand
 //setlocale(LC_TIME, "fr_FR"); // string date en francais
 setlocale (LC_TIME, 'fr_FR.utf8','fra'); // modif Bertrand : pour que le nom du jour s'affiche en Français
 $strSTART="";   // initialisation des variables
