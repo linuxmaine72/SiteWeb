@@ -34,10 +34,6 @@ $strURL="";
     $strEND1Heure = substr($strEND1,9,2);
     $strEND1Min = substr($strEND1,11,2);
     $strDATE1="$strSTART1Mois/$strSTART1Jour/$strSTART1Annee";
-    echo "<a href='$strURL1' target='_blank' >";
-    echo strftime("%A %e %B %Y",strtotime($strDATE1));
-    echo " de ".$strSTART1Heure."h".$strSTART1Min." à ".$strEND1Heure."h".$strEND1Min."</BR>";
-    echo "</a>";
 
     $strSTART2Annee = substr($strSTART2,0,4);
     $strSTART2Mois = substr($strSTART2,4,2);
@@ -47,9 +43,14 @@ $strURL="";
     $strEND2Heure = substr($strEND2,9,2);
     $strEND2Min = substr($strEND2,11,2);
     $strDATE2="$strSTART2Mois/$strSTART2Jour/$strSTART2Annee";
+
     echo "<a href='$strURL2' target='_blank' >";
     echo strftime("%A %e %B %Y",strtotime($strDATE2));
     echo " de ".$strSTART2Heure."h".$strSTART2Min." à ".$strEND2Heure."h".$strEND2Min."</BR>";
+    echo "</a>";
+    echo "<a href='$strURL1' target='_blank' >";
+    echo strftime("%A %e %B %Y",strtotime($strDATE1));
+    echo " de ".$strSTART1Heure."h".$strSTART1Min." à ".$strEND1Heure."h".$strEND1Min."</BR>";
     echo "</a>";
 
 ?>
