@@ -168,7 +168,7 @@
                       des actions de formations, de sensibilisation, de
                       vulgarisation et d'organisation de manifestations.</p>
                     <p class="normal">Elle se veut vivante et ouverte à tous
-                      respectant la philosophie open source de GNU Linux.</p>
+                      respectant la philosophie open source de GNU / Linux.</p>
                     <table align="center" border="0" cellpadding="0" cellspacing="5">
                       <tbody>
                         <tr width="100%">
