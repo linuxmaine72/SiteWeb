@@ -168,7 +168,7 @@
                       des actions de formations, de sensibilisation, de
                       vulgarisation et d'organisation de manifestations.</p>
                     <p class="normal">Elle se veut vivante et ouverte à tous
-                      respectant la philosophie open source de GNU Linux.</p>
+                      respectant la philosophie open source de GNU / Linux.</p>
                     <table align="center" border="0" cellpadding="0" cellspacing="5">
                       <tbody>
                         <tr width="100%">
@@ -215,8 +215,7 @@
                             d'accès : <br>
                             <a href="http://osm.org/go/0BANbE0Tw-">Open Street
                               Map</a><br>
-                            <a href="http://www17.mappy.com/mappymoi/map?data_id=9239BB7F-7BDF-4E35-92F4-7A13574CD118" title="Plan d'accès mappy" target="_blank">mappy</a><a href="http://groups.google.fr/group/linuxmaine72?hl=fr">
-                            </a></td>
+                           </td>
                         </tr>
                       </tbody>
                     </table>
