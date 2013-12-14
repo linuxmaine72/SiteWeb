@@ -8,6 +8,7 @@ $strSTART="";   // initialisation des variables
 $strEND="";
 $strResume="";
 $strURL="";
+$strAJD=date('Ymd'); // AnnéeMoisJour d'ajd
 
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, "http://www.agendadulibre.org/ical.php?tag=linuxmaine"); // recup fichier ical dans variable
@@ -50,27 +51,52 @@ if ($output) {
     $strEND2Min = substr($strEND2,11,2);
     $strDATE2="$strSTART2Mois/$strSTART2Jour/$strSTART2Annee";
 
-if ($strSTART1<$strSTART2) // si le dernier evenement(1) du fichier ical est antérieur à l'avant-dernier(2)
-	{ // afficher
-	echo "<a href='$strURL1' target='_blank' >";
-	echo strftime("%A %e %B %Y",strtotime($strDATE1));
-	echo " de ".$strSTART1Heure."h".$strSTART1Min." à ".$strEND1Heure."h".$strEND1Min."</BR>";
-	echo "</a>";
-	echo "<a href='$strURL2' target='_blank' >";
-	echo strftime("%A %e %B %Y",strtotime($strDATE2));
-	echo " de ".$strSTART2Heure."h".$strSTART2Min." à ".$strEND2Heure."h".$strEND2Min."</BR>";
-	echo "</a>";
+if ($strSTART1>$strAJD && $strSTART2>$strAJD) // les 2 evenements ne sont pas passés
+	{
+	if ($strSTART1<$strSTART2) // si le dernier evenement(1) du fichier ical est antérieur à l'avant-dernier(2)
+		{ // afficher
+		echo "<a href='$strURL1' target='_blank' >";
+		echo strftime("%A %e %B %Y",strtotime($strDATE1));
+		echo " de ".$strSTART1Heure."h".$strSTART1Min." à ".$strEND1Heure."h".$strEND1Min."</BR>";
+		echo "</a>";
+		echo "<a href='$strURL2' target='_blank' >";
+		echo strftime("%A %e %B %Y",strtotime($strDATE2));
+		echo " de ".$strSTART2Heure."h".$strSTART2Min." à ".$strEND2Heure."h".$strEND2Min."</BR>";
+		echo "</a>";
+		}
+		else
+		{
+		echo "<a href='$strURL2' target='_blank' >";
+		echo strftime("%A %e %B %Y",strtotime($strDATE2));
+		echo " de ".$strSTART2Heure."h".$strSTART2Min." à ".$strEND2Heure."h".$strEND2Min."</BR>";
+		echo "</a>";
+		echo "<a href='$strURL1' target='_blank' >";
+		echo strftime("%A %e %B %Y",strtotime($strDATE1));
+		echo " de ".$strSTART1Heure."h".$strSTART1Min." à ".$strEND1Heure."h".$strEND1Min."</BR>";
+		echo "</a>";
+		}
 	}
 	else
 	{
-	echo "<a href='$strURL2' target='_blank' >";
-	echo strftime("%A %e %B %Y",strtotime($strDATE2));
-	echo " de ".$strSTART2Heure."h".$strSTART2Min." à ".$strEND2Heure."h".$strEND2Min."</BR>";
-	echo "</a>";
-	echo "<a href='$strURL1' target='_blank' >";
-	echo strftime("%A %e %B %Y",strtotime($strDATE1));
-	echo " de ".$strSTART1Heure."h".$strSTART1Min." à ".$strEND1Heure."h".$strEND1Min."</BR>";
-	echo "</a>";
+	if ($strSTART1<$strAJD & $strSTART2>$strAJD ) // START1 est passé, j'affiche que START2
+		{
+		echo "<a href='$strURL2' target='_blank' >";
+		echo strftime("%A %e %B %Y",strtotime($strDATE2));
+		echo " de ".$strSTART2Heure."h".$strSTART2Min." à ".$strEND2Heure."h".$strEND2Min."</BR>";
+		echo "</a>";	
+		}
+	if ($strSTART1>$strAJD & $strSTART2<$strAJD ) // START2 est passé, j'affiche que START1
+		{
+		echo "<a href='$strURL1' target='_blank' >";
+		echo strftime("%A %e %B %Y",strtotime($strDATE1));
+		echo " de ".$strSTART1Heure."h".$strSTART1Min." à ".$strEND1Heure."h".$strEND1Min."</BR>";
+		echo "</a>";	
+		}
+	if ($strSTART1>$strAJD & $strSTART2>$strAJD ) // les 2 evenements sont passé
+		{
+		echo "aucun &eacute;v&egrave;ment &agrave; venir</BR>";
+		}
+
 	}
 }
 ?>
