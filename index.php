@@ -204,7 +204,7 @@
                             nous adresser un message pour toutes questions : <span style="font-size: 9pt; color: blue; background-color: rgb(255, 255, 255); font-weight: bold;">contact
                               (at) linuxmaine (point) fr</span> <br>
                             <br>
-                            <center><a href="http://www.facebook.com/group.php?gid=136585045696" target="_blank" style="border: medium none ;"> <img src="inc/images/facebook_icon.jpg" style="" none;”=""> </a></center>
+                            <!-- <center><a href="http://www.facebook.com/group.php?gid=136585045696" target="_blank" style="border: medium none ;"> <img src="inc/images/facebook_icon.jpg" style="" none;”=""> </a></center> -->
                           </td>
                         </tr>
                         <tr>
@@ -213,8 +213,8 @@
                         <tr width="100%">
                           <td class="titre1" colspan="2" align="center">Plan
                             d'accès : <br>
-                            <a href="http://osm.org/go/0BANbE0Tw-">Open Street
-                              Map</a><br>
+                            <iframe width="400" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://cartosm.eu/map?lon=0.20948345986251&lat=47.973745251774&zoom=16&width=400&height=350&mark=true&nav=true&pan=true&zb=inout&style=default&icon=down"></iframe><br /><div id="cartosmlink"><a href="http://www.openstreetmap.org/?mlat=47.973745251774&mlon=0.20948345986251&zoom=16&layers=M" style="text-align:left;">Voir sur une carte plus grande</a></div>
+                            <!-- <a href="http://osm.org/go/0BANbE0Tw-">Open Street Map</a><br> -->
                            </td>
                         </tr>
                       </tbody>
