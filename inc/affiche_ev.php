@@ -13,10 +13,11 @@ $strAJD=date('Ymd'); // AnnéeMoisJour d'ajd
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, "http://www.agendadulibre.org/ical.php?tag=linuxmaine"); // recup fichier ical dans variable
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
     curl_setopt($ch, CURLOPT_TIMEOUT, 3);
 
     $output = curl_exec($ch);
-
+   
 if ($output) {
 
     curl_close($ch); //Fermeture du gestionnaire cURL juste après exécution
